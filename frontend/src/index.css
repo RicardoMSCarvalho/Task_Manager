@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.form-container {
+  width: 30%;
+}
+.table-custom {
+  margin: 0 auto;
+  width: auto; /* or a specific width like 80% */
+  width: 800px; /* optional: limit the max width */
+}
+.not-found {
+  text-align: center;
+  padding: 50px;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+}
+
+.not-found p {
+  font-size: 1.2rem;
+}
+
+.not-found a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.not-found a:hover {
+  background-color: #0056b3;
+}
+.error-message {
+  padding-top: 0.5rem;
+  color: #ff0000;
+}
+/* Bootstrap */
+.navbar-brand {
+  font-size: 2rem;
+}
+h3 .text-center {
+  margin-bottom: 0;
+}
+.navbar-expand .navbar-nav .nav-link {
+  font-size: 1rem;
+}
+.show-data {
+  text-align: center;
+}
+.show-data h1 {
+  margin-top: 2rem;
+}
+.me-auto {
+  margin-right: 0 !important;
+}
+@media screen and (max-width: 1000px) {
+  .form-container {
+    width: 45%;
+  }
+}
+
+@media screen and(max-width:700px) {
+  .form-container {
+    width: 65%;
+  }
+}
